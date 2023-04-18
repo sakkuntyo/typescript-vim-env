@@ -1,6 +1,6 @@
 ﻿# typescript-vim-env
 
-1. vimrc を入れる
+1. このリポジトリの .vimrc を ~/ に入れる
 2. vim-plug を入れる
 
 https://github.com/junegunn/vim-plug
