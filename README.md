@@ -24,6 +24,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 - linux dasasaki専用(vim)
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+apt install software-properties-common
+apt update
+add-apt-repository ppa:jonathonf/vim
+apt update
+apt install vim
 ```
 
 3. vim 開いて :PlugInstall
